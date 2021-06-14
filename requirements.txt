@@ -1,5 +1,5 @@
 
-anaconda-navigator==1.9.12
+
 appdirs==1.4.4
 appnope==0.1.0
 argon2-cffi @ file:///opt/concourse/worker/volumes/live/c4db8eed-7de0-4d68-400c-2ea7e21d3750/volume/argon2-cffi_1596828478065/work
