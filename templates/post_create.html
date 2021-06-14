@@ -1,0 +1,11 @@
+<h1>Message board homepage</h1>
+<ul>
+
+    <li>
+        <form method="post">{% csrf_token %}
+            {{ form.as_p }}
+            <input type="submit" value="Create New Post">
+        </form>
+    </li>
+
+</ul>

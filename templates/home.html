@@ -2,7 +2,10 @@
 <ul>
     {% for post in all_posts_list %}
     <li>
-        {{ post }}
+
+        <a href="{% url 'post-detail' post.id %}">{{ post }}</a>
+
     </li>
     {% endfor %}
+    <a href="{% url 'post-create' %}">Create New Post</a>
 </ul>

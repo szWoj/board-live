@@ -1,0 +1,10 @@
+<h1>Message board homepage</h1>
+<ul>
+
+    <li>
+        {{ object }}
+        <form method="post" action="{% url 'post-delete' object.id %}">    {% csrf_token %}<input type="submit" value="delete"> </form>
+        <form method="post" action="{% url 'post-update' object.id %}">    {% csrf_token %}<input type="submit" value="update"> </form>
+    </li>
+
+</ul>
